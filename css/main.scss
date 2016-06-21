@@ -1,4 +1,5 @@
 $maincolor: #075aff;
+$mainfont:Helvetica;
 span {
     font-weight: 100;
 }
@@ -28,13 +29,13 @@ body {
         margin: 0 10px;
         text-align: center;
         color: white;
-        font-family: sans-serif;
+        font-family: $mainfont;
     }
     h6 {
         text-align: center;
         color: rgba(255, 255, 255, 0.61);
         margin: 10px auto;
-        font-family: sans-serif;
+        font-family: $mainfont;
     }
     .headbutton {
         display: block;
@@ -45,7 +46,7 @@ body {
         margin: 20px auto;
         padding: 16px;
         font-size: 15px;
-        font-family: sans-serif;
+        font-family: $mainfont;
         border-radius: 5px;
         .fa {
             margin-left: 70px;
@@ -79,10 +80,10 @@ body {
         margin-left: 10px;
     }
     h4 {
-        font-family: sans-serif;
+        font-family: $mainfont;
     }
     h3 {
-        font-family: sans-serif;
+        font-family: $mainfont;
         color: $maincolor;
         font-size: 0.7em;
     }
@@ -92,7 +93,7 @@ body {
     }
     li {
         font-weight: bold;
-        font-family: sans-serif;
+        font-family: $mainfont;
         font-size: 12px;
         padding-bottom: 8px;
     }
@@ -141,10 +142,10 @@ body {
             margin-top: 30px;
         }
         h4 {
-            font-family: sans-serif;
+            font-family: $mainfont;
         }
         h3 {
-            font-family: sans-serif;
+            font-family: $mainfont;
             color: $maincolor;
             font-size: 0.7em;
         }
@@ -154,7 +155,7 @@ body {
         }
         li {
             font-weight: bold;
-            font-family: sans-serif;
+            font-family: $mainfont;
             font-size: 12px;
             padding-bottom: 8px;
         }
@@ -182,7 +183,7 @@ body {
     }
     p {
         margin-left: 80px;
-        font-family: sans-serif;
+        font-family: $mainfont;
     }
     ul {
         margin-left: 80px;
