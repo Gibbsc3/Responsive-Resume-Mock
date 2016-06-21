@@ -63,7 +63,7 @@ body {
 
 .icontainer {
   display: flex;
-  margin: 0px 10px 5px 10px;
+  margin: 0 10px 5px;
 }
 
 .icontainer .left {
@@ -102,12 +102,12 @@ body {
 .second-half h3 {
   font-family: sans-serif;
   color: #075aff;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 .second-half ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .second-half li {
@@ -151,10 +151,10 @@ body {
     margin: 50px auto;
   }
   .icontainer {
-    margin: 0px 10px 12px 10px;
+    margin: 0 10px 12px;
   }
   .round-img {
-    margin-top: 0px;
+    margin-top: 0;
   }
   .second-half {
     flex: 1;
@@ -169,11 +169,11 @@ body {
   .second-half h3 {
     font-family: sans-serif;
     color: #075aff;
-    font-size: .7em;
+    font-size: 0.7em;
   }
   .second-half ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
   }
   .second-half li {
     font-weight: bold;
