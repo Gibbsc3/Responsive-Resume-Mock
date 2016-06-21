@@ -1,5 +1,8 @@
 $maincolor: #075aff;
 $mainfont:Helvetica;
+html {
+  font-family: $mainfont;
+}
 span {
     font-weight: 100;
 }
