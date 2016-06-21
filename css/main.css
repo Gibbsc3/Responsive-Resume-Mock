@@ -141,7 +141,7 @@ body {
     margin: 15px 10px;
   }
   .first-half .test {
-    margin-top: 10em;
+    margin-top: 6em;
   }
   .first-half .headbutton {
     margin: 50px auto;
@@ -191,6 +191,7 @@ body {
 @media screen and (min-width: 1000px) {
   h3 {
     float: left;
+    margin-top: 26px;
   }
   h4 {
     margin-left: 80px;
@@ -200,6 +201,7 @@ body {
   }
   p {
     margin-left: 80px;
+    font-family: sans-serif;
   }
   ul {
     margin-left: 80px;
